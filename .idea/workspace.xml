@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0de9e6d-87e6-4bef-8099-8830543d67c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/restedit/js/restedit.ajax.js" afterPath="$PROJECT_DIR$/wp-content/plugins/restedit/js/restedit.ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/restedit/restedit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/restedit/restedit.php" />
     </list>
     <ignored path="wordpress5a.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="restedit.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="restedit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/restedit/restedit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4124236">
+              <caret line="27" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#6#353#0#PHP" expanded="true" />
               </folding>
@@ -37,13 +36,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restedit.ajax.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="restedit.ajax.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/restedit/js/restedit.ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46222663">
-              <caret line="31" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <marker date="1492656640000" expanded="true" signature="347:360" placeholder="..." />
+                <marker date="1492656642000" expanded="true" signature="347:360" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -340,27 +339,27 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1492656640000" expanded="true" signature="347:360" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/restedit/restedit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#353#0#PHP" expanded="true" />
+            <marker date="1492656642000" expanded="true" signature="347:360" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/restedit/js/restedit.ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46222663">
-          <caret line="31" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <marker date="1492656640000" expanded="true" signature="347:360" placeholder="..." />
+            <marker date="1492656642000" expanded="true" signature="347:360" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/restedit/restedit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4124236">
+          <caret line="27" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#353#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
