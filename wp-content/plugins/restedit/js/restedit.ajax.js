@@ -7,6 +7,20 @@
 	// Hide the save button using display:none in an inline style.
     $ENTRYTITLE.after( '<button class="edit-button edit-title">Edit title</button><button class="edit-title save" style="display: none">Save title</button>' );
 
+	function runAjax(newTitle) {
+		$.ajax({
+			url: WPsettings.root + 'wp/v2/posts/' + WPsettings.current_ID,
+			method: 'POST',
+			beforeSend: function(xhr) {
+				xhr.setRequestHeader( 'X-WP-Nonce', WPsettings.nonce);
+			},
+			data: {
+				'title': newTitle
+			}
+		})
+	}
+
+
 	$('.edit-title.edit-button').click(function(){
 		let $originalTitle = $ENTRYTITLE.text();
 		$ENTRYTITLE.toggle();
@@ -23,7 +37,9 @@
 		$('#title-input').toggle();
 		$('.edit-title.edit-button').toggle();
 		$(this).toggle();
+		runAjax(newTitle);
 	});
+
 
 
 
